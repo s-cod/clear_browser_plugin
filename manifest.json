@@ -1,0 +1,14 @@
+{
+    "name": "Sofron Cleaner",
+    "action": {
+        "default_title": "Sofron",
+        "default_icon": "icon.png"
+    },
+    "manifest_version": 3,
+    "version": "0.1",
+    "description": "Выходим =) с чисткой LocalStorage",
+    "permissions": ["activeTab", "scripting", "browsingData"],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
